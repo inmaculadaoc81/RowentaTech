@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-labelledby="t3 d3">
+  <title id="t3">Servicio de recogida de robot aspirador Rowenta</title>
+  <desc id="d3">Ilustración de una caja de envío con un robot aspirador Rowenta preparado para su recogida a domicilio</desc>
+  <defs>
+    <linearGradient id="boxGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e7cfa8"/>
+      <stop offset="100%" stop-color="#d7b788"/>
+    </linearGradient>
+    <linearGradient id="tealGrad3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17c7ba"/>
+      <stop offset="100%" stop-color="#0ea89f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" rx="28" fill="#eef1ee"/>
+
+  <!-- dashed route -->
+  <path d="M120 620 Q 420 720 620 560 T 1080 260" fill="none" stroke="#0ea89f" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round" opacity="0.6"/>
+  <g transform="translate(1080,260)">
+    <circle r="26" fill="url(#tealGrad3)"/>
+    <path d="M-8 -2 L4 10 L18 -14" fill="none" stroke="#0c1416" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(120,620)">
+    <path d="M0 -46 C 26 -46 46 -26 46 0 C 46 34 0 66 0 66 C 0 66 -46 34 -46 0 C -46 -26 -26 -46 0 -46 Z" fill="#2c3540"/>
+    <circle r="16" fill="#eef1ee"/>
+  </g>
+
+  <!-- open box -->
+  <g transform="translate(430,300)">
+    <!-- back flaps -->
+    <polygon points="0,40 220,0 440,40 220,80" fill="#c7a978"/>
+    <!-- box body -->
+    <rect x="30" y="80" width="380" height="300" rx="10" fill="url(#boxGrad)"/>
+    <rect x="30" y="80" width="380" height="300" rx="10" fill="none" stroke="#b99a6c" stroke-width="2"/>
+    <!-- tape -->
+    <rect x="200" y="80" width="40" height="300" fill="#f4ede0" opacity="0.7"/>
+    <!-- front flap open -->
+    <polygon points="30,80 220,26 220,80" fill="#dcc199"/>
+    <polygon points="410,80 220,26 220,80" fill="#c7a978"/>
+  </g>
+
+  <!-- robot vacuum inside box -->
+  <g transform="translate(620,330)">
+    <circle r="120" fill="#1a1c1f"/>
+    <circle r="120" fill="none" stroke="#3a4550" stroke-width="2"/>
+    <circle r="94" fill="none" stroke="#4d5c6c" stroke-width="1.5" stroke-dasharray="2 9"/>
+    <circle cy="-104" r="10" fill="url(#tealGrad3)"/>
+    <circle cx="40" cy="30" r="7" fill="#17c7ba"/>
+    <circle r="26" fill="none" stroke="#5c6d7d" stroke-width="2"/>
+    <circle r="6" fill="#5c6d7d"/>
+  </g>
+
+  <!-- shipping label -->
+  <g transform="translate(760,560)">
+    <rect width="220" height="120" rx="12" fill="#ffffff" stroke="#dfe3e2" stroke-width="2"/>
+    <rect x="20" y="22" width="130" height="12" rx="6" fill="#0ea89f"/>
+    <rect x="20" y="50" width="180" height="10" rx="5" fill="#c9cdd1"/>
+    <rect x="20" y="70" width="150" height="10" rx="5" fill="#c9cdd1"/>
+    <rect x="20" y="90" width="100" height="10" rx="5" fill="#c9cdd1"/>
+  </g>
+</svg>

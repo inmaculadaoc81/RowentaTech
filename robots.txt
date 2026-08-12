@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://repararrobotaspirador.com.es/sitemap.xml

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Reparación de robot aspirador Rowenta</title>
+  <desc id="d1">Ilustración de un técnico revisando electrónicamente un robot aspirador Rowenta</desc>
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#eef4f3"/>
+      <stop offset="100%" stop-color="#e7ebe9"/>
+    </radialGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c3540"/>
+      <stop offset="100%" stop-color="#1a1c1f"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17c7ba"/>
+      <stop offset="100%" stop-color="#0ea89f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" rx="28" fill="url(#bgGlow)"/>
+
+  <g opacity="0.14" stroke="#0ea89f" stroke-width="3" fill="none">
+    <path d="M60 700 h140 v-90 h120"/>
+    <path d="M1040 120 h-130 v90 h-110"/>
+    <circle cx="200" cy="700" r="7" fill="#0ea89f" stroke="none"/>
+    <circle cx="910" cy="120" r="7" fill="#0ea89f" stroke="none"/>
+  </g>
+
+  <ellipse cx="600" cy="640" rx="330" ry="36" fill="#1a1c1f" opacity="0.08"/>
+
+  <!-- Robot vacuum body (top view) -->
+  <g transform="translate(600,400)">
+    <circle r="230" fill="url(#bodyGrad)"/>
+    <circle r="230" fill="none" stroke="#3a4550" stroke-width="2"/>
+    <circle r="188" fill="none" stroke="#40495530" stroke-width="1"/>
+
+    <!-- front sensor bump -->
+    <path d="M -70 -215 A 230 230 0 0 1 70 -215 L 46 -170 A 150 150 0 0 0 -46 -170 Z" fill="#232a31"/>
+    <circle cx="0" cy="-196" r="16" fill="url(#tealGrad)"/>
+
+    <!-- top plate accent ring -->
+    <circle r="150" fill="none" stroke="#4d5c6c" stroke-width="1.5" stroke-dasharray="2 10"/>
+
+    <!-- status LED -->
+    <circle cx="70" cy="60" r="10" fill="#17c7ba"/>
+
+    <!-- brand ring detail -->
+    <circle r="46" fill="none" stroke="#5c6d7d" stroke-width="2"/>
+    <circle r="10" fill="#5c6d7d"/>
+  </g>
+
+  <!-- wheels peeking -->
+  <ellipse cx="430" cy="590" rx="34" ry="14" fill="#141618"/>
+  <ellipse cx="770" cy="590" rx="34" ry="14" fill="#141618"/>
+
+  <!-- brush arc -->
+  <path d="M 500 610 A 120 60 0 0 0 700 610" fill="none" stroke="#0ea89f" stroke-width="6" stroke-dasharray="4 10" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- screwdriver tool -->
+  <g transform="translate(830,230) rotate(35)">
+    <rect x="-14" y="-120" width="28" height="120" rx="10" fill="#eef1f1" stroke="#c7ccd1" stroke-width="2"/>
+    <rect x="-16" y="-10" width="32" height="70" rx="8" fill="url(#tealGrad)"/>
+    <rect x="-9" y="-136" width="18" height="20" rx="3" fill="#8b939b"/>
+  </g>
+
+  <!-- gear icon -->
+  <g transform="translate(360,220)" fill="#2c3540">
+    <circle r="46"/>
+    <g fill="#2c3540">
+      <rect x="-6" y="-62" width="12" height="22" rx="3"/>
+      <rect x="-6" y="40" width="12" height="22" rx="3"/>
+      <rect x="-62" y="-6" width="22" height="12" rx="3"/>
+      <rect x="40" y="-6" width="22" height="12" rx="3"/>
+      <rect x="-6" y="-62" width="12" height="22" rx="3" transform="rotate(45)"/>
+      <rect x="-6" y="40" width="12" height="22" rx="3" transform="rotate(45)"/>
+      <rect x="-62" y="-6" width="22" height="12" rx="3" transform="rotate(45)"/>
+      <rect x="40" y="-6" width="22" height="12" rx="3" transform="rotate(45)"/>
+    </g>
+    <circle r="20" fill="#eef1f1"/>
+  </g>
+
+  <!-- check badge -->
+  <g transform="translate(845,540)">
+    <circle r="46" fill="url(#tealGrad)"/>
+    <path d="M-20 2 L-6 18 L24 -16" fill="none" stroke="#0c1416" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
