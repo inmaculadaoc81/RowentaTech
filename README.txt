@@ -19,7 +19,7 @@ CONTACT_EMAIL=soporte@kelatos.com
 El correo no aparece visible en la web, solo en backend.
 
 Google Analytics:
-No se proporcionó código para esta web; no se ha añadido ninguno.
+G-EQGDTB55ZG
 
 REVISIÓN (fixes aplicados):
 - Menú móvil: el botón .menu-btn existía visualmente pero no tenía
