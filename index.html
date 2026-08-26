@@ -6,11 +6,19 @@
 <link rel="canonical" href="https://repararrobotaspirador.com.es/">
 <link rel="icon" href="/assets/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/styles.css">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="RowentaTech | Servicio Técnico Robot Aspirador Rowenta en Madrid">
+<meta property="og:description" content="Reparación de robot aspirador Rowenta en Madrid. Diagnóstico 20 € + IVA, recogida, cita y atención técnica.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://repararrobotaspirador.com.es/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"RowentaTech","url":"https://repararrobotaspirador.com.es/","telephone":"+34914468503","description":"Servicio técnico de reparación de robot aspirador Rowenta en Madrid. Diagnóstico 20 € + IVA.","address":{"@type":"PostalAddress","streetAddress":"C. Joaquín María López, 26","postalCode":"28015","addressLocality":"Madrid","addressCountry":"ES"},"areaServed":"Madrid","sameAs":["https://maps.app.goo.gl/Ck4zYeWTdUCAb2gSA","https://www.youtube.com/channel/UCaxAqLD9Mk5gvzqoDedlWSA"]}</script>
 </head><body>
 <header class="header"><div class="wrap nav">
 <a href="#inicio"><img class="logo" src="/assets/logo-rowentatech.webp" alt="RowentaTech"></a>
-<nav class="links"><a href="#problemas">Qué le pasa</a><a href="#datos">Qué hacer</a><a href="#recogida">Recogida</a><a href="#cita">Pedir cita</a><a href="#contacto">Contacto</a><a class="navcall" href="tel:+34914468503">Atención Telefónica 24 horas 365 días</a></nav>
-<button class="menu-btn">Menú</button></div></header>
+<nav class="links"><a href="#problemas">Qué le pasa</a><a href="#datos">Qué hacer</a><a href="#recogida">Recogida</a><a href="#cita">Pedir cita</a><a href="#guia">Guía</a><a href="#contacto">Contacto</a><a class="navcall" href="tel:+34914468503">Atención Telefónica 24 horas 365 días</a></nav>
+<button class="menu-btn" onclick="document.getElementById('mobileMenu').hidden=!document.getElementById('mobileMenu').hidden" aria-label="Abrir menú">Menú</button></div>
+<div id="mobileMenu" class="mobile-menu" hidden><a href="#problemas">Qué le pasa</a><a href="#datos">Qué hacer</a><a href="#recogida">Recogida</a><a href="#cita">Pedir cita</a><a href="#guia">Guía</a><a href="#contacto">Contacto</a><a href="tel:+34914468503">+34 914 46 85 03</a></div>
+</header>
 
 <main>
 <section class="hero" id="inicio"><div class="wrap hero-grid">
@@ -65,6 +73,8 @@
 
 <section id="cita"><div class="wrap"><div class="kicker">Si prefieres dejarlo agendado</div><h2 class="title">Reserva una cita de 30 minutos.</h2><iframe class="cal-frame" src="https://cal.com/kelatos/30min?embed=true&theme=light" title="Reserva una cita con RowentaTech" loading="lazy"></iframe></div></section>
 
+<section class="seo-content" id="guia"><div class="wrap"><div class="kicker">Servicio técnico Rowenta en Madrid</div><h2 class="title">Reparación de robot aspirador Rowenta, explicada sin tecnicismos</h2><div class="seo-text"><p>En RowentaTech reparamos robots aspiradores Rowenta en Madrid: Explorer Series y X-plorer Serie, tanto los modelos más sencillos como los que incorporan navegación por IA. No importa si el problema es de encendido, de carga, de succión o de movimiento: antes de hablar de precios, revisamos el equipo para entender qué está fallando realmente.</p><p>Ese diagnóstico tiene un coste fijo de 20 € + IVA, que se descuenta del presupuesto si finalmente decides reparar el equipo. La mayoría de las averías de un robot aspirador no requieren sustituir el equipo entero: un fallo de carga puede estar en la base, en el conector o en la batería, y cada causa se aborda de forma distinta. Por eso no damos presupuestos a ciegas ni cambiamos piezas al azar.</p><p>Puedes traer tu robot a nuestras instalaciones en Madrid o solicitar la recogida si no quieres desplazarte. Te mantenemos informado por teléfono o WhatsApp durante todo el proceso, y solo empezamos la reparación cuando ya conoces el diagnóstico y el coste.</p></div></div></section>
+
 <section class="faq"><div class="wrap"><div class="kicker">Preguntas frecuentes</div><h2 class="title">Lo que normalmente quieres saber antes de dejar el robot.</h2>
 <details><summary>¿Cuánto cuesta el diagnóstico?</summary><p>El diagnóstico tiene un coste de 20 € + IVA.</p></details>
 <details><summary>¿Cuánto tiempo tardará la reparación?</summary><p>Depende de la causa de la avería y de la intervención necesaria.</p></details>
@@ -107,5 +117,48 @@ form.addEventListener('submit',async(e)=>{
  }catch(err){console.error(err);statusEl.textContent='No se pudo enviar. Puedes contactar por teléfono o WhatsApp.';statusEl.style.color='#b72f2f';}
  finally{btn.disabled=false}
 });
+</script>
+<div id="cookie-banner" class="cookie-banner" hidden>
+  <p>Utilizamos cookies y tecnologías similares propias y de terceros, de sesión o persistentes, para hacer funcionar de manera segura nuestra página web y personalizar su contenido. Igualmente, utilizamos cookies para medir y obtener datos de la navegación que realizas y para ajustar la publicidad a tus gustos y preferencias. Puedes aceptar el uso de cookies a continuación.</p>
+  <div class="cookie-actions">
+    <button type="button" class="cookie-btn" id="cookie-accept">Aceptar</button>
+    <button type="button" class="cookie-btn" id="cookie-reject">Rechazar</button>
+    <a class="cookie-btn cookie-link" href="https://kelatos.com/privacy-policy/" target="_blank" rel="noopener">Política de privacidad</a>
+  </div>
+  <button type="button" class="cookie-close" id="cookie-close" aria-label="Cerrar">&times;</button>
+</div>
+<style>
+.cookie-banner{position:fixed;left:0;right:0;bottom:0;z-index:99999;background:#22262f;color:#fff;padding:20px 56px 20px 20px;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px;text-align:center;box-shadow:0 -8px 30px rgba(0,0,0,.25);font-family:Arial,Helvetica,sans-serif}
+.cookie-banner:not([hidden]){display:flex}
+.cookie-banner p{margin:0;max-width:900px;font-size:13.5px;line-height:1.5;flex:1 1 500px;color:#fff}
+.cookie-actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;flex:0 0 auto}
+.cookie-btn{display:inline-block;border:0;background:#1fb6ad;color:#fff!important;font-weight:700;font-size:13.5px;padding:10px 18px;border-radius:6px;cursor:pointer;text-decoration:none;white-space:nowrap}
+.cookie-btn:hover{background:#189d95}
+.cookie-close{position:absolute;top:10px;right:14px;background:transparent;border:0;color:#aab0bb;font-size:22px;line-height:1;cursor:pointer;padding:6px 8px}
+.cookie-close:hover{color:#fff}
+@media(max-width:700px){
+  .cookie-banner{padding:18px 40px 18px 16px;text-align:left}
+  .cookie-banner p{font-size:12.5px}
+  .cookie-actions{flex-direction:column;align-items:stretch;width:100%}
+  .cookie-btn{width:100%;text-align:center;padding:12px 16px}
+}
+</style>
+<script>
+(function(){
+  var KEY='kelatos_cookie_consent';
+  var banner=document.getElementById('cookie-banner');
+  if(!banner) return;
+  var already=false;
+  try{ already=!!localStorage.getItem(KEY); }catch(e){}
+  if(already){ banner.hidden=true; return; }
+  banner.hidden=false;
+  function setConsent(value){
+    try{ localStorage.setItem(KEY,value); }catch(e){}
+    banner.hidden=true;
+  }
+  var a=document.getElementById('cookie-accept'); if(a) a.addEventListener('click',function(){setConsent('accepted')});
+  var r=document.getElementById('cookie-reject'); if(r) r.addEventListener('click',function(){setConsent('rejected')});
+  var c=document.getElementById('cookie-close'); if(c) c.addEventListener('click',function(){setConsent('dismissed')});
+})();
 </script>
 </body></html>
