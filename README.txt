@@ -43,3 +43,29 @@ middleware.mjs: cualquier URL que no sea "/" redirige (301) a la home,
 para que enlaces antiguos indexados en Google no den 404. Se ha añadido
 la dependencia "@vercel/functions" en package.json, necesaria para el
 middleware.
+
+REVISIÓN ADICIONAL (checklist unificado de la familia, a petición del cliente):
+- BUG REAL — schema.org usaba el teléfono compartido de los botones
+  (+34914468503) en vez del propio de la caja de información
+  (+34 910 05 47 06), regla estándar de la familia desde hace tiempo
+  (mismo tipo de bug encontrado antes en TechMac/ToshibaWEB2).
+  Corregido.
+- BUG REAL — el H1 era una pregunta ("¿Tu Rowenta no funciona?...",
+  22 palabras), incumpliendo la regla de la familia (nunca pregunta,
+  máximo 10 palabras). Reescrito: "Tu Rowenta no aspira o no carga.
+  Aquí lo revisamos." (10 palabras, afirmativo).
+- BUG REAL — el formulario no tenía ninguna casilla de consentimiento
+  de política de privacidad. Añadida, con enlace a
+  https://kelatos.com/privacy-policy/ en azul y subrayado.
+- Añadida franja de aviso de servicio técnico independiente debajo
+  del menú (no existía).
+- Añadido "Sábados, domingos y días festivos estamos cerrados" debajo
+  del horario.
+- Botón "Atención Telefónica..." sin icono, a diferencia del de
+  WhatsApp. Añadido.
+- Texto decorativo del hero ya se ocultaba en móvil; el de la
+  sección de datos ("NO HAGAS PRUEBAS AL AZAR") es una etiqueta
+  legible de 20px, no una marca de agua gigante, así que no aplica el
+  problema de corte visto en otros repos.
+- Formulario verificado: fetch a /api/contacto coincide con
+  api/contacto.js; conexión correcta.
