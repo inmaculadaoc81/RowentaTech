@@ -32,3 +32,4 @@ footer{background:#111;color:#fff;padding:34px 0}.footer{display:flex;justify-co
 @media(max-width:900px){.links{display:none}.menu-btn{display:block}.hero-grid,.data-grid,.contact-grid,.pickup-panel{grid-template-columns:1fr}.problem-grid{grid-template-columns:1fr 1fr}.steps-grid{grid-template-columns:1fr 1fr}.trust-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.wrap{width:min(100% - 28px,1180px)}h1{font-size:48px}.problem-grid,.steps-grid,.ctas,form{grid-template-columns:1fr}.phone,.full{grid-column:auto}.hero:after{display:none}.cal-frame{height:760px}.footer{flex-direction:column;align-items:flex-start}}
 .quote:hover{filter:brightness(.88)}
+.quote svg{width:20px!important;height:20px!important;max-width:20px!important;max-height:20px!important;flex:0 0 20px!important}
